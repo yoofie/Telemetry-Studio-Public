@@ -1,8 +1,10 @@
 # Telemetry Studio Public Overview
 
-Hello internet strangers, this project main purpose is to show some public images of a program I have been working on in my free time.
+Hello internet strangers, this project main purpose is to show some public images of a program I have been working on in my free time. 
 
 Its main purpose is to show live telemetry data streaming from microcontrollers at buttery smooth framerates.
+
+The program is currently private because this entire project started with me experimenting with various coding techniques regarding muti-threading, graphics programming, Rust & C++ FFI, etc. I do not intend to relase it as it currently is. Perhaps it might be paid software or open source in the future - I don't know yet.
 
 ## Quick Intro
 In the automotive industry, it is common to debug and monitor ECU behaviour by watching the network traffic over CAN & LIN bus. Since the ECU is handling multiple concurrent operations at a time, we need to be able to monitor multiple state-machines, debug signals and other arbitrary data comping from the ECU in a graphical way over time. This program aims to be a "data oscilloscope" for these internal signals which you can then use to find bugs, implmenet a fix and then confirm the fix.
