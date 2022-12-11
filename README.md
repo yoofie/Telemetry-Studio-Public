@@ -20,6 +20,7 @@ While this tool is aimed for streaming data from embedded devices, I aim to make
 - [x] Support multiple streaming sessions & devices
 - [x] Capture analytical data (min value, max value, running avg, etc)
 - [] Mostly static binary. A single executable file so you can quickly share the program and your saved session on USB drives. Currently we have 2 DLLs that need be copied for the program to work - but I will remove it eventually
+- [x] drag and drop data signals onto plot. 
 
 ### Plotting features
 - [x] Plot multiple "messsages" and "signals" per plot
@@ -59,13 +60,12 @@ And alot more features planned (when I can get around to it). See to-do list bel
 
 ### Screenshot Notes
  - Tabular data log
- - Tabular data log
+ - Split panes. One for plot data, one for tabular data
 
 ![](Alpha_images/TelemetryStudio_v0.1_main_plot_area_with_signal_table_multiple_sessions.png)
 
 ### Screenshot Notes
- - Serial configuration pane
- - Program will auto-detect new devices in the "COM Port" dropdown menu
+ - analytical data (on left side)
 
 ![](Alpha_images/TelemetryStudio_v0.1_main_plot_area_with_bookmarks.png)
 
