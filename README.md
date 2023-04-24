@@ -21,7 +21,7 @@ While this tool is aimed for streaming data from embedded devices, I aim to make
 - [ ] Import & Export sessions
 - [ ] Support multiple streaming sessions & devices
 - [ ] Capture analytical data (min value, max value, running avg, etc)
-- [] Mostly static binary. A single executable file so you can quickly share the program and your saved session on USB drives. Currently we have 2 DLLs that need be copied for the program to work - but I will remove it eventually
+- [ ] Mostly static binary. A single executable file so you can quickly share the program and your saved session on USB drives. Currently we have 2 DLLs that need be copied for the program to work - but I will remove it eventually
 - [x] drag and drop data signals onto plot. 
 
 ### Plotting features
@@ -107,5 +107,7 @@ This is a hobby project that I made during my free time intended for my own pers
 <video width="640" height="480" controls>
   <source src="./Alpha_images/20230423_Demo_video.mp4" type="video/mp4">
 </video>
+
+https://github.com/yoofie/Telemetry-Studio-Public/blob/main/Alpha_images/20230423_Demo_video.mp4
 
 Update 4/23: I did a big refactor and removed alot of the features for now. I will re-implement the items above within the new refactored code.
