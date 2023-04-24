@@ -95,11 +95,11 @@ The problem with a logic analyzer is that is displays binary content. Zeroes and
 This is a hobby project that I made during my free time intended for my own personal use. I might potentially open-source it or sell it. I don’t offer any support at the moment. I am open to have testers/debugging support to help me refine this idea.
 
 # Future features/ to-do list
-- [] Build a database dynamically by streaming JSON data. Currently, the data must conform a schema
-- [] Stream data over websockets, WASM, TCP/UDP, etc. Currently, data is ingest via serial
-- [] proper plugin system. Create your own data sources, pipe them into this app and view your data
-- [] SQL data browser with data filtering support?
-- [] Clean up and make a better UI
+- [ ] Build a database dynamically by streaming JSON data. Currently, the data must conform a schema
+- [ ] Stream data over websockets, WASM, TCP/UDP, etc. Currently, data is ingest via serial
+- [ ] proper plugin system. Create your own data sources, pipe them into this app and view your data
+- [ ] SQL data browser with data filtering support?
+- [ ] Clean up and make a better UI
 - ...and tons more....just so much to do
 
 # Demo video
