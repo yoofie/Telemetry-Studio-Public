@@ -13,14 +13,14 @@ While this tool is aimed for streaming data from embedded devices, I aim to make
 
 ## Features
 
-- [x] Stream time series telemetry and debug data from a Microcontroller over serial, USB or any other link
+- [ ] Stream time series telemetry and debug data from a Microcontroller over serial, USB or any other link
 - [x] Streaming data is display at buttery smooth framerates.
 - [x] Plot multiple "messages" and "signals" per plot
 - [x] Plot multiple plots per screen
-- [x] Export data to CSV, SQL, Parquet, etc.
-- [x] Import & Export sessions
-- [x] Support multiple streaming sessions & devices
-- [x] Capture analytical data (min value, max value, running avg, etc)
+- [ ] Export data to CSV, SQL, Parquet, etc.
+- [ ] Import & Export sessions
+- [ ] Support multiple streaming sessions & devices
+- [ ] Capture analytical data (min value, max value, running avg, etc)
 - [] Mostly static binary. A single executable file so you can quickly share the program and your saved session on USB drives. Currently we have 2 DLLs that need be copied for the program to work - but I will remove it eventually
 - [x] drag and drop data signals onto plot. 
 
@@ -34,7 +34,7 @@ While this tool is aimed for streaming data from embedded devices, I aim to make
 - [x] Infinite zoom in & out. See you data from a 1000m high level or zoom in up close. Obviously this depends on the resolution of your data
 - [x] Bookmark/measurement pair "jumping". In the table view, clicking on the button will jump you to where the marker is on the plot
 - [x] keyboard shortcuts to play/pause/set bookmarks/measurement pairs, etc
-- [x] **Custom Y-axis markers** (see 2nd plot from top in screenshots, note the Y-axis values that have human readable names instead of numeric values. This is very handy when debugging things, especially state machines)
+- [ ] **Custom Y-axis markers** (see 2nd plot from top in screenshots, note the Y-axis values that have human readable names instead of numeric values. This is very handy when debugging things, especially state machines)
 
 And alot more features planned (when I can get around to it). See to-do list below
 
@@ -102,4 +102,10 @@ This is a hobby project that I made during my free time intended for my own pers
 - [] Clean up and make a better UI
 - ...and tons more....just so much to do
 
+# Demo video
 
+<video width="640" height="480" controls>
+  <source src="./Alpha_images/20230423_Demo_video.mp4" type="video/mp4">
+</video>
+
+Update 4/23: I did a big refactor and removed alot of the features for now. I will re-implement the items above within the new refactored code.
